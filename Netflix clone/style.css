@@ -1,0 +1,286 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: arial;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.box1{
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(rgba(0,0,0,1)0%,rgba(0,0,0,0)60%,rgba(0,0,0,1)100%),url(/asset/hero.jpg);
+    background-size:100%;
+    background-position:70%;
+}
+
+.box1 nav{
+    height: 100px;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 nav .nav-logo{
+    margin-top: 20px;
+    margin-left: 90px;
+    height: 40px;
+    width: 700px;
+    background-size: contain;
+    background-position:0;
+    background-repeat: no-repeat;
+    background-image: url(/asset/logo.svg);
+    
+}
+
+.box1 nav .lang{
+    height: 30px;
+    width: 120px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #dddddd67;
+    border-radius: 5px;
+}
+.fa-language{
+    color: #fff;
+    margin-left: 3px;
+}
+
+.lang select{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    /* border: 0.5px solid #dddddd; */
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    margin-left: 15px;
+}
+
+.lang option{
+    color:#000;
+    
+}
+
+.sign {
+    height: 30px ;
+    width: 80px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-right: 15px;
+
+}
+
+.sign button{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #E50914;
+    border-radius: 5px;
+
+}
+
+.box1 .content{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    height: 370px;
+    width: 100%;
+}
+.box1 .content h1{
+    font-size: 3.4rem;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+.box1 .content p{
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 600; 
+    margin-bottom: 20px;
+
+}
+
+.box1 .content h3{
+    font-size: 1.6rem;
+    color: #ffffffe2;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.content-items{
+    display: block;
+    text-align: center;
+}
+
+.get-start{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.get-start input{
+    width: 360px;
+    border-radius: 5px;
+    background-color:#ffffff18;
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+.get-start button{
+    width: 200px;
+    border-radius: 5px;
+    background:#E50914 ;
+    
+}
+
+.get-start button pre{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.glow:hover{
+    background: #B20710;
+}
+hr{
+    height: 10px;
+    background-color: #000000af;
+    border: none;
+}
+
+.box{
+    height: 400px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.text-div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-div .text h1{
+    font-size:3.4rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.text-div .text p{
+    font-size:1.8rem;
+    font-weight: 500;
+}
+
+.img-div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ibg1{
+    height: 100%;
+    width: 100%;
+    background: url(/asset/tv.png),url(/asset/money.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ibg2{
+    height: 100%;
+    width: 100%;
+    background: url(/asset/mobile-0819.jpg);
+    background-size: cover;
+}
+
+.ibg3{
+    height: 100%;
+    width: 100%;
+    background: url(/asset/device-pile-in.png);
+    background-size: cover;
+}
+
+.ibg4{
+    height: 100%;
+    width: 100%;
+    background: url(/asset/child.png);
+    background-size: cover;
+}
+.ques-sec{
+    background: #000;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+}
+.ques-sec h1{
+    color: #fff;
+    font-size: 3.6rem;
+    font-weight: 800;
+    padding-top: 25px;
+}
+
+.queries{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ques{
+    height: 90px;
+    width: 1000px;
+    background-color: #4f4d4d62;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ques span{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.fa-plus{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.r2w{
+    height: 250px;
+    width: 100%;
+    background-color: #000;
+}
+.r2w p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
